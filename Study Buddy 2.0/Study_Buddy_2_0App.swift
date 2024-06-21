@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Study_Buddy_2_0App: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(UserSettings())
         }
     }
 }

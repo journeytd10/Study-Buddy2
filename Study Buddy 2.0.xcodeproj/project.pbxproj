@@ -14,6 +14,19 @@
 		6F00ED0F2C206EDF00CACC8C /* Study_Buddy_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F00ED0E2C206EDF00CACC8C /* Study_Buddy_2_0Tests.swift */; };
 		6F00ED192C206EDF00CACC8C /* Study_Buddy_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F00ED182C206EDF00CACC8C /* Study_Buddy_2_0UITests.swift */; };
 		6F00ED1B2C206EDF00CACC8C /* Study_Buddy_2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F00ED1A2C206EDF00CACC8C /* Study_Buddy_2_0UITestsLaunchTests.swift */; };
+		6FB004022C2076A000D20648 /* ActiviesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB004012C2076A000D20648 /* ActiviesContentView.swift */; };
+		6FB004042C20771400D20648 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB004032C20771400D20648 /* PlaceDetailView.swift */; };
+		6FB004062C2078BB00D20648 /* ActivitiesCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB004052C2078BB00D20648 /* ActivitiesCartView.swift */; };
+		6FB004082C20795F00D20648 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB004072C20795F00D20648 /* Launch Screen.storyboard */; };
+		6FB0040D2C207BDD00D20648 /* AccoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB0040C2C207BDD00D20648 /* AccoutView.swift */; };
+		6FF710242C24613E00CAA4A1 /* ActivitiesMockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF710232C24613E00CAA4A1 /* ActivitiesMockStore.swift */; };
+		6FF710262C24617E00CAA4A1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF710252C24617E00CAA4A1 /* TabBarView.swift */; };
+		6FF710282C24629C00CAA4A1 /* UIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF710272C24629C00CAA4A1 /* UIScrollViewController.swift */; };
+		6FF7102A2C2462F200CAA4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF710292C2462F200CAA4A1 /* AppDelegate.swift */; };
+		6FF7102C2C24630000CAA4A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7102B2C24630000CAA4A1 /* SceneDelegate.swift */; };
+		6FF710302C24634400CAA4A1 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7102F2C24634400CAA4A1 /* BlurView.swift */; };
+		6FF710322C24635D00CAA4A1 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF710312C24635D00CAA4A1 /* LogInView.swift */; };
+		6FF710342C24636C00CAA4A1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF710332C24636C00CAA4A1 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,19 @@
 		6F00ED142C206EDF00CACC8C /* Study Buddy 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study Buddy 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F00ED182C206EDF00CACC8C /* Study_Buddy_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_Buddy_2_0UITests.swift; sourceTree = "<group>"; };
 		6F00ED1A2C206EDF00CACC8C /* Study_Buddy_2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_Buddy_2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FB004012C2076A000D20648 /* ActiviesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiviesContentView.swift; sourceTree = "<group>"; };
+		6FB004032C20771400D20648 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		6FB004052C2078BB00D20648 /* ActivitiesCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesCartView.swift; sourceTree = "<group>"; };
+		6FB004072C20795F00D20648 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6FB0040C2C207BDD00D20648 /* AccoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccoutView.swift; sourceTree = "<group>"; };
+		6FF710232C24613E00CAA4A1 /* ActivitiesMockStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesMockStore.swift; sourceTree = "<group>"; };
+		6FF710252C24617E00CAA4A1 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		6FF710272C24629C00CAA4A1 /* UIScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewController.swift; sourceTree = "<group>"; };
+		6FF710292C2462F200CAA4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FF7102B2C24630000CAA4A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FF7102F2C24634400CAA4A1 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		6FF710312C24635D00CAA4A1 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		6FF710332C24636C00CAA4A1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +121,21 @@
 			isa = PBXGroup;
 			children = (
 				6F00ECFD2C206EDE00CACC8C /* Study_Buddy_2_0App.swift */,
+				6FF710272C24629C00CAA4A1 /* UIScrollViewController.swift */,
+				6FF710292C2462F200CAA4A1 /* AppDelegate.swift */,
 				6F00ECFF2C206EDE00CACC8C /* ContentView.swift */,
+				6FF7102B2C24630000CAA4A1 /* SceneDelegate.swift */,
+				6FF710252C24617E00CAA4A1 /* TabBarView.swift */,
+				6FB0040C2C207BDD00D20648 /* AccoutView.swift */,
+				6FB004012C2076A000D20648 /* ActiviesContentView.swift */,
+				6FB004032C20771400D20648 /* PlaceDetailView.swift */,
+				6FF7102F2C24634400CAA4A1 /* BlurView.swift */,
+				6FB004052C2078BB00D20648 /* ActivitiesCartView.swift */,
+				6FF710312C24635D00CAA4A1 /* LogInView.swift */,
+				6FF710232C24613E00CAA4A1 /* ActivitiesMockStore.swift */,
+				6FF710332C24636C00CAA4A1 /* SignUpView.swift */,
 				6F00ED012C206EDF00CACC8C /* Assets.xcassets */,
+				6FB004072C20795F00D20648 /* Launch Screen.storyboard */,
 				6F00ED032C206EDF00CACC8C /* Preview Content */,
 			);
 			path = "Study Buddy 2.0";
@@ -215,6 +254,10 @@
 				Base,
 			);
 			mainGroup = 6F00ECF12C206EDE00CACC8C;
+			packageReferences = (
+				6FB0040B2C207B0000D20648 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6FB0040E2C207D4F00D20648 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+			);
 			productRefGroup = 6F00ECFB2C206EDE00CACC8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB004082C20795F00D20648 /* Launch Screen.storyboard in Resources */,
 				6F00ED052C206EDF00CACC8C /* Preview Assets.xcassets in Resources */,
 				6F00ED022C206EDF00CACC8C /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +301,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF7102A2C2462F200CAA4A1 /* AppDelegate.swift in Sources */,
+				6FF710342C24636C00CAA4A1 /* SignUpView.swift in Sources */,
+				6FF710242C24613E00CAA4A1 /* ActivitiesMockStore.swift in Sources */,
+				6FF710262C24617E00CAA4A1 /* TabBarView.swift in Sources */,
+				6FB004042C20771400D20648 /* PlaceDetailView.swift in Sources */,
+				6FB004062C2078BB00D20648 /* ActivitiesCartView.swift in Sources */,
+				6FF710282C24629C00CAA4A1 /* UIScrollViewController.swift in Sources */,
 				6F00ED002C206EDE00CACC8C /* ContentView.swift in Sources */,
+				6FF710322C24635D00CAA4A1 /* LogInView.swift in Sources */,
+				6FB004022C2076A000D20648 /* ActiviesContentView.swift in Sources */,
+				6FF710302C24634400CAA4A1 /* BlurView.swift in Sources */,
 				6F00ECFE2C206EDE00CACC8C /* Study_Buddy_2_0App.swift in Sources */,
+				6FB0040D2C207BDD00D20648 /* AccoutView.swift in Sources */,
+				6FF7102C2C24630000CAA4A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +481,7 @@
 				DEVELOPMENT_TEAM = 327T2KRZZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Study-Buddy";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -435,6 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.studybuddy.Study-Buddy-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -454,6 +512,7 @@
 				DEVELOPMENT_TEAM = 327T2KRZZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Study-Buddy";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +523,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.studybuddy.Study-Buddy-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -588,6 +648,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6FB0040B2C207B0000D20648 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+		6FB0040E2C207D4F00D20648 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 6F00ECF22C206EDE00CACC8C /* Project object */;
 }
