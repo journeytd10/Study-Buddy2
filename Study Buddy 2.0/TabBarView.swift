@@ -13,38 +13,45 @@ struct TabBarView: View {
             NavigationView {
                 ActivitiesContentView(activtiesData: Activities(data: ActivitiesMockStore.activityData, items: ActivitiesMockStore.activities))
             }
-            .tag(0)
             .tabItem {
                 Image("activity-1")
                     .resizable()
                 Text("Activities")
             }
+            .tag(0)
             
             NavigationView {
                 ActivitiesCartView(ShoppingCartItemsData: ActivitiesCart(data: ActivitiesMockStore.shoppingCartData))
             }
-            .tag(1)
             .tabItem {
                 Image(systemName: "sparkles.square.filled.on.square")
                 Text("Practice")
             }
+            .tag(1)
             
             NavigationView {
-                     
-                  }
-                   .tag(2)
-                    .tabItem {
-                        Image("message")
-                        Text("Assistance")
-                }
+                AssistanceView()
+            }
+            .tabItem {
+                Image(systemName: "message")
+                Text("Assistance")
+            }
+            .tag(2)
+            
             NavigationView {
-                     
-                  }
-                   .tag(3)
-                    .tabItem {
-                        Image("profile-glyph-icon")
-                        Text("Account")
-                }
+                // Your account view here
+            }
+            .tabItem {
+                Image("profile-glyph-icon")
+                Text("Account")
+            }
+            .tag(3)
         }
+    }
+}
+
+struct TabBarView_Previews: PreviewProvider {
+    static var previews: some View {
+        TabBarView()
     }
 }
